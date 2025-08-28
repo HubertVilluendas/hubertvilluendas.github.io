@@ -20,7 +20,7 @@ Parcours universitaire
   * 2023–2024
   * Internship: <strong style="color: #197ac9;">Mixed-Integer Conic Optimization for Combinatorial Problems</strong> (encadré by Mathieu Besançon, LIG)
 
-* Master Mathématiques Fondamentales – Research in Number Theory and Algebraic Geometry
+* Master Mathématiques Fondamentales – Research in Number Theory and Algebraic Geometry 
   * Université Grenoble Alpes, Institut Fourier
   * 2021–2023
   * Internships:
