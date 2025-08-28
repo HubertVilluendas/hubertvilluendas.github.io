@@ -10,27 +10,27 @@ redirect_from:
 
 Education
 ======
-* Thèse de doctorat en Mathématiques Appliquées – Methods and applications of mixed integer conic optimisation
+* Thèse de doctorat en Mathématiques Appliquées – <strong style="color: #197ac9;">Methods and applications of mixed integer conic optimisation</strong>
   * Université Grenoble Alpes, Laboratoire Jean Kuntzmann (LJK) & Laboratoire d'Informatique de Grenoble (LIG)
   * Co -encadrée par Jérôme Malick (LJK) et Mathieu Besançon (LIG)
   * Depuis 2023
 
 * Master 2 ORCO (Operations Research, Combinatorics and Optimization)
-  * University Grenoble Alpes, IM²AG
+  * Université Grenoble Alpes, IM²AG
   * 2023–2024
-  * Internship: "Mixed-Integer Conic Optimization for Combinatorial Problems" (encadré by Mathieu Besançon, LIG)
+  * Internship: <strong style="color: #197ac9;">Mixed-Integer Conic Optimization for Combinatorial Problems</strong> (encadré by Mathieu Besançon, LIG)
 
 * Master Mathématiques Fondamentales – Research in Number Theory and Algebraic Geometry
   * Université Grenoble Alpes, Institut Fourier
   * 2021–2023
   * Internships:
-    * "Formes traces supérieures des algèbres séparables" (encadré by Grégory Berhuy, M2)
-    * "Groupe simple d'ordre 168" (encadré by Grégory Berhuy, M1)
+    * <strong style="color: #197ac9;">Formes traces supérieures des algèbres séparables</strong> (encadré by Grégory Berhuy, M2)
+    * <strong style="color: #197ac9;">Groupe simple d'ordre 168</strong> (encadré by Grégory Berhuy, M1)
 
 * Magistère Mathematiques et Applications
   * Université Grenoble Alpes, Institut Fourier
   * 2020–2023
-  * Research Internship: "Algèbres de type de représentation fini" (encadré by Claire Amiot)
+  * Research Internship: <strong style="color: #197ac9;">Algèbres de type de représentation fini</strong> (encadré by Claire Amiot)
 
 Articles
 
