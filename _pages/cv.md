@@ -8,7 +8,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-Education
+Parcours universitaire
 ======
 * Thèse de doctorat en Mathématiques Appliquées – <strong style="color: #197ac9;">Methods and applications of mixed integer conic optimisation</strong>
   * Université Grenoble Alpes, Laboratoire Jean Kuntzmann (LJK) & Laboratoire d'Informatique de Grenoble (LIG)
@@ -33,7 +33,6 @@ Education
   * Research Internship: <strong style="color: #197ac9;">Algèbres de type de représentation fini</strong> (encadré by Claire Amiot)
 
 Articles
-
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
