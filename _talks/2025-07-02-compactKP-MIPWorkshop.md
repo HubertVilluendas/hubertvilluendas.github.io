@@ -5,7 +5,7 @@ type: "Poster"
 permalink: /poster/2025-07-02-SDPCompactKP
 venue: "European MIP Workshop"
 date: 2025-07-02
-location: "clermont ferrand, France"
+location: "Clermont Ferrand, France"
 #slidesurl: 'http://hubertvilluendas.github.io/files/posterMIPWorkshop2025.pdf'
 ---
 
