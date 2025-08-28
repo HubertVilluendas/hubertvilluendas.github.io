@@ -6,51 +6,59 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+
 {% include base_path %}
 
-Parcours Universitaire
+Education
 ======
-* PhD in Applied Mathematics – Methods and applications of mixed integer conic optimisation
-  * University Grenoble Alpes, Laboratoire Jean Kuntzmann (LJK) & Laboratoire d'Informatique de Grenoble (LIG)
-  * Supervisors: Jérôme Malick (LJK) and Mathieu Besançon (LIG)
-  * Since 2023
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014
+* B.S. in GitHub, GitHub University, 2012
 
-* Master 2 ORCO (Operations Research, Combinatorics and Optimization)
-  * University Grenoble Alpes, IM³AG
-  * 2023–2024
-  * Internship: "Mixed-Integer Conic Optimization for Combinatorial Problems" (supervised by Mathieu Besançon, LIG)
+Work experience
+======
+* Spring 2024: Academic Pages Collaborator
+  * GitHub University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
 
-* Master Fondamental Mathematics – Research in Number Theory and Algebraic Geometry
-  * University Grenoble Alpes, Institut Fourier
-  * 2021–2023
-  * Internships:
-    * "Formes traces supérieures des algèbres séparables" (supervised by Grégory Berhuy, M2)
-    * "Groupe simple d'ordre 168" (supervised by Grégory Berhuy, M1)
+* Fall 2015: Research Assistant
+  * GitHub University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
 
-* Magistère Mathematics and Applications
-  * University Grenoble Alpes, Institut Fourier
-  * 2020–2023
-  * Research Internship: "Algèbres de type de représentation fini" (supervised by Claire Amiot)
+* Summer 2015: Research Assistant
+  * GitHub University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+  
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
-Aticles
+Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  * **Knapsack with compactness: a Semidefinite Approach**
-    * To be published – [Preprint disponible sur arXiv](https://arxiv.org/abs/2504.17543)
-
-Présentations
+  
+Talks
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
+    {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  * **Compact Knapsack: a Semidefinite Approach** – ROADEF
-  * **A Semidefinite Approach for the Compact Knapsack** – PGMO
-
-Enseignement
+  
+Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  *(Section vide – à compléter si nécessaire)*
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
