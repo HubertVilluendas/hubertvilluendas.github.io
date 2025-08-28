@@ -6,6 +6,7 @@ permalink: /talks/2024-11-20-SDPCompactKP
 venue: "PGMO Days 2024"
 date: 2024-11-20
 location: "Palaiseau, France"
+slidesurl: 'http://hubertvilluendas.github.io/files/TalkPGMO2024.pdf'
 ---
 
 Work in progress about the min-knapsack problem.

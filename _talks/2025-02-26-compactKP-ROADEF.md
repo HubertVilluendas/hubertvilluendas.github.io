@@ -6,6 +6,7 @@ permalink: /talks/2025-11-20-SDPCompactKP
 venue: "ROADEF 2025"
 date: 2025-02-26
 location: "Marne-la-vallée, France"
+slidesurl: 'http://hubertvilluendas.github.io/files/TalkROADEF2025.pdf'
 ---
 
 Presentation about the min-knapsack problem.
