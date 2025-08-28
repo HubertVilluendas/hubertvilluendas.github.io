@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Semidefinite Programming"
+excerpt: "Dans le cadre de mon premier projet de thèse, j'ai étudié l'optimisation semidéfinie positive. <br/><img src='/images/Compact-solution-1.png'>"
 collection: portfolio
 ---
 
