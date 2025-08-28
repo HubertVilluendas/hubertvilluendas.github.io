@@ -37,20 +37,15 @@ Articles
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  * **Knapsack with compactness: a Semidefinite Approach**
-    * To be published – [Preprint disponible sur arXiv](https://arxiv.org/abs/2504.17543)
 
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  * **Compact Knapsack: a Semidefinite Approach** – ROADEF
-  * **A Semidefinite Approach for the Compact Knapsack** – PGMO
 
 Enseignement
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  *(Section vide – à compléter si nécessaire)*
