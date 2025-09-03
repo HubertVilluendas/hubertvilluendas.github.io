@@ -9,7 +9,7 @@ location: "Marne-la-vallée, France"
 #slidesurl: 'http://hubertvilluendas.github.io/files/TalkROADEF2025.pdf'
 ---
 
-Presentation about the min-knapsack problem. [Slides](files/TalkROADEF2025.pdf)
+Presentation about the min-knapsack problem. [Slides](/files/TalkROADEF2025.pdf)
 
 The min-knapsack with compactness constraint problem (min-KCP) is a variant of the classical knapsack problem, introduced in [The min-Knapsack problem with compactness constraints and applications in statistics](https://www.sciencedirect.com/science/article/pii/S0377221723005593), originally to solve the problem of detecting regime changes in time series. Given items \\(i\in \left\lbrace 1,\dots,\right\rbrace\\) with cost \\(c_i\\) and weight \\(w_i\\), the goal is to select objects \\(S\subseteq\left\lbrace 1,\dots,n\right\rbrace\\) minimizing the cost of the selection, while ensuring that the total weight exceeds a given constant \\(q\\), in such way that the selection is <strong>compact</strong>: for a given \\(\Delta\in\mathbb{N}\\), the distance separating two consecutive selected objects \\(i,j\in S\\) must not exceed \\(\Delta\\). 
 
