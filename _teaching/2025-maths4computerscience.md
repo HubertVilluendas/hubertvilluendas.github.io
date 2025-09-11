@@ -15,7 +15,10 @@ Premier semestre de l'année universitaire 2025-2026 : l'objectif de ce cours es
 Ressources
 ======
 
-- **TD1** [![Watch the video](https://img.youtube.com/vi/y4xi1a8sw-M/default.jpg)](https://www.youtube.com/shorts/y4xi1a8sw-M?feature=share)
+- **TD1** 
+    - [Sum of the cubes - visual proof 1](https://www.youtube.com/shorts/y4xi1a8sw-M?feature=share)
+    - [Sum of the cubes - visual proof 2](https://www.youtube.com/shorts/dOCk6SSpWLo?feature=share)
+    - [Sum of the cubes - visual proof 3](https://www.youtube.com/shorts/SZsMVGqUiic?t=7&feature=share)
 
 
 <!--Heading 2
