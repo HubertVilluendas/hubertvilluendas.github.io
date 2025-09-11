@@ -10,10 +10,12 @@ location: "Grenoble, France"
 
 Premier semestre de l'année universitaire 2025-2026 : l'objectif de ce cours est de fournir les bases nécessaires pour que chaque étudiant puisse utiliser les outils mathématiques adéquats pour concevoir des raisonnements bien fondés et prouver des propriétés. On y aborde un aperçu des techniques de démonstration, récurrence, bijections et algorithmes, bases du dénombrement et de la combinatoire, divisibilité, structures discrètes et graphes, probabilités, modélisation des lois classiques, marches aléatoires.
 
-<!--Heading 1
+<span style="color: #7E7E7E;">(*english version below*)</span>
+
+Ressources
 ======
 
-Heading 2
+<!--Heading 2
 ======
 
 Heading 3
