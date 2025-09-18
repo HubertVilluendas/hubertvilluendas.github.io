@@ -18,7 +18,7 @@ Ressources
     - [Sum of the cubes - visual proof 2](https://www.youtube.com/shorts/dOCk6SSpWLo?feature=share)
     - [Sum of the cubes - visual proof 3](https://www.youtube.com/shorts/SZsMVGqUiic?t=7&feature=share)
 
-    > **Lemma** : for all \\(m\in\mathbb{N}\\), \\(\sum^m_{k=1}(2k-1)=m^2\\).
+<!--     > **Lemma** : for all \\(m\in\mathbb{N}\\), \\(\sum^m_{k=1}(2k-1)=m^2\\).
     > *Proof* : let \\(m\in\mathbb{N}\\), and \\(S=\sum^m_{k=1}(2k-1)\\). Then, writting twice the sum, we have:
     > \\(\begin{align*}
     >    2S = &  1 + 3 + \cdots + (2k-1) + \cdots + (2m-3) + (2m-1)\\
@@ -32,7 +32,7 @@ Ressources
     > *Proof* : let \\(n\in\mathbb{N}\\). Let
     > $$A=\Delta_n^2\qquad B=\sum^{\Delta_n}_{k=1}(2k-1)\qquad C=\sum^n_{k=1}k^3.$$
     > - \\(A=B\\) : we first show the following stronger result :
-    > &&\forall m\in\mathbb{N},\quad \sum^m_{k=1}(2k-1)=m^2.&&
+    > &&\forall m\in\mathbb{N},\quad \sum^m_{k=1}(2k-1)=m^2.&& -->
 
 - **TD2** 
     - [Explaination about *The Josephus Problem*](https://youtu.be/uCsD3ZGzMgE)
