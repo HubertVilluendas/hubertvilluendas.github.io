@@ -11,13 +11,13 @@ main:
 #  - title: "Recherche"
 #    url: /portfolio/
 
-  - title: "Enseignement"
+  - title: "Teachin"
     url: /teaching/
 
-  - title: "Interventions"
+  - title: "Talks"
     url: /talks/
 
-  - title: "Articles"
+  - title: "Publications"
     url: /publications/
 
   - title: "CV"

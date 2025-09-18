@@ -2,10 +2,10 @@
 title: "Compact Knapsack: a Semidefinite Approach"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-11-20-SDPCompactKP
-venue: "ROADEF 2025"
-date: 2025-02-26
-location: "Marne-la-vallée, France"
+permalink: /talks/SDPCompactKP
+venue: "PGMO Days 2024, ROADEF 2025"
+date: 2024-11-20, 2025-02-26
+location: "Palaiseau, France ; Marne-la-vallée, France"
 #slidesurl: 'http://hubertvilluendas.github.io/files/TalkROADEF2025.pdf'
 ---
 

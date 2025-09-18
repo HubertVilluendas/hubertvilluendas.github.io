@@ -8,29 +8,29 @@ redirect_from:
 ---
 {% include base_path %}
 
-Parcours universitaire
+Academic Background
 ======
-* Thèse de doctorat en Mathématiques Appliquées – <strong>Methods and applications of mixed integer conic optimisation</strong>
+* PhD in Applied Mathematics – <strong>Methods and applications of mixed integer conic optimisation</strong>
   * Université Grenoble Alpes, Laboratoire Jean Kuntzmann (LJK) & Laboratoire d'Informatique de Grenoble (LIG)
-  * Co -encadrée par Jérôme Malick (LJK) et Mathieu Besançon (LIG)
-  * Depuis 2023
+  * Co-supervised by Jérôme Malick (LJK) and Mathieu Besançon (LIG)
+  * Since 2023
 
 * Master 2 ORCO (Operations Research, Combinatorics and Optimization)
   * Université Grenoble Alpes, IM²AG
   * 2023–2024
-  * Internship: <strong>Mixed-Integer Conic Optimization for Combinatorial Problems</strong> (encadré by Mathieu Besançon, LIG)
+  * Internship: <strong>Mixed-Integer Conic Optimization for Combinatorial Problems</strong> (supervised by Mathieu Besançon, LIG)
 
-* Master Mathématiques Fondamentales – Research in Number Theory and Algebraic Geometry 
+* Master in Fundamental Mathematics – Research in Number Theory and Algebraic Geometry 
   * Université Grenoble Alpes, Institut Fourier
   * 2021–2023
   * Internships:
-    * <strong>Formes traces supérieures des algèbres séparables</strong> (encadré by Grégory Berhuy, M2)
-    * <strong>Groupe simple d'ordre 168</strong> (encadré by Grégory Berhuy, M1)
+    * <strong>Higher trace forms of separable algebras</strong> (supervised by Grégory Berhuy, M2)
+    * <strong>Simple group of order 168</strong> (supervised by Grégory Berhuy, M1)
 
-* Magistère Mathematiques et Applications
+* Magistère in Mathematics and Applications
   * Université Grenoble Alpes, Institut Fourier
   * 2020–2023
-  * Research Internship: <strong>Algèbres de type de représentation fini</strong> (encadré by Claire Amiot)
+  * Research Internship: <strong>Algebras of finite representation type</strong> (supervised by Claire Amiot)
 
 Articles
 ======
