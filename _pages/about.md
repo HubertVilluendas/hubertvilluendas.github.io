@@ -15,7 +15,7 @@ $$
 \left[\begin{array}{rll}
 \text{minimize} & c^\top x &\\
 \text{subject to} & Ax-b\in \mathcal{K} &\\
-& x_i\in\mathbb{Z}^p\times\mathbb{Z}^{n-p} & \forall i\in [\![n]\!]
+& x_i\in\mathbb{Z}^p\times\mathbb{R}^{n-p} & \forall i\in [\![n]\!]
 \end{array}\right.
 $$
 
