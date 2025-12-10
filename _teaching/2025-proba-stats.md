@@ -16,8 +16,8 @@ Ressources
 ======
 
 - **Devoir en classe : probabilités conditionnelles et formule de Bayes**
-    - [Sujet A](/files/Stats et Probas - Devoir Proba 05-12 - Sujet A.pdf) et [Correction Sujet A](/files/Stats et Probas - Devoir Proba 05-12 - Corrigé Sujet A.pdf) 
-    - [Sujet B](/files/Stats et Probas - Devoir Proba 05-12 - Sujet B.pdf) et [Correction Sujet B](/files/Stats et Probas - Devoir Proba 05-12 - Corrigé Sujet B.pdf)
+    - [Sujet A](/files/StatsProbas - DS 05-12 - Sujet A.pdf) et [Correction Sujet A](/files/StatsProbas - DS 05-12 - Sujet A - Corrigé.pdf) 
+    - [Sujet B](/files/StatsProbas - DS 05-12 - Sujet B.pdf) et [Correction Sujet B](/files/StatsProbas - DS 05-12 - Sujet B - Corrigé.pdf)
 
 <!-- Heading 1
 ======
