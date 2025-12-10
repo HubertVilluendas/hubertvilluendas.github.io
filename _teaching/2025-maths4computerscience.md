@@ -30,13 +30,13 @@ Ressources
 - **TD5** [Correction TD5](/files/Maths4ComputerScience - Correction TD5.pdf) 
 
 
-Internship proposal
+<!-- Internship proposal
 ======
 **Development of a Julia wrapper for the BiqCrunch solver (binary quadratic optimisation and semi-definite programming).**
 
 - Co-supervised with Mathieu Besançon, hosted at the LIG (Laboratoire d'Informatique de Grenoble) at the GHOST team.
 
-- *Context* : in the study of binary quadratic problems (BQP), positive semidefinite relaxations (SDPs) are commonly used to provide quality bounds. We model these problems in [Julia](https://julialang.org/) using [JuMP](https://jump.dev/), and currently solve them using solvers such as Mosek, SCS, Clarabel, *etc*. The [BiqCrunch](https://biqcrunch.lipn.univ-paris13.fr/) solver (implemented in C) is particularly well suited to BQP: it constructs efficient SDP relaxations to generate strong bounds, which are then exploited in a branch-and-bound approach.The proposed internship aims to develop a Julia wrapper to interface BiqCrunch with JuMP/MathOptInterface. If time permits, we will also consider creating a documented Julia package to facilitate the use of BiqCrunch within the JuMP community.
+- *Context* : in the study of binary quadratic problems (BQP), positive semidefinite relaxations (SDPs) are commonly used to provide quality bounds. We model these problems in [Julia](https://julialang.org/) using [JuMP](https://jump.dev/), and currently solve them using solvers such as Mosek, SCS, Clarabel, *etc*. The [BiqCrunch](https://biqcrunch.lipn.univ-paris13.fr/) solver (implemented in C) is particularly well suited to BQP: it constructs efficient SDP relaxations to generate strong bounds, which are then exploited in a branch-and-bound approach.The proposed internship aims to develop a Julia wrapper to interface BiqCrunch with JuMP/MathOptInterface. If time permits, we will also consider creating a documented Julia package to facilitate the use of BiqCrunch within the JuMP community. -->
 
 <!--Heading 2
 ======
