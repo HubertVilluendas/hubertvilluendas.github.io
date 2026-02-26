@@ -23,11 +23,11 @@ Assuming that the data follows an unknown probability distribution \\(\mathbb{P}
 
 However, this approach can fail in the case where \\(N\\) is small or when the deployment data differs from the training data. In this context, Wasserstein Distributionally Robust Optimization (WDRO) has become a powerful framework, by its nice modeling and generalisation properties [[Esfahani and Kuhn, 2018](https://link.springer.com/content/pdf/10.1007/s10107-017-1172-1.pdf), [Le and Malick, 2024](https://arxiv.org/pdf/2402.11981), [Wiesemann, 2014](https://optimization-online.org/wp-content/uploads/2013/02/3757.pdf)]: we minimize the expected value of \\(f(z,\cdot)\\) under the worst-case distribution within a neighborhood of the empirical measure \\(\widehat{\mathbb{P}}_N\\). This leads to the problem:
 
-\\({\min}_{z\,\in\,\mathcal{Z}}{\sup}_{\substack{\mathbb{Q}\,\in\,\mathrm{Proba}\left(\Xi\right)\\ W_c(\mathbb{Q},{\widehat{\mathbb{P}}}_N)\,\leq\,\varrho}}{\mathbb{E}}_{\zeta\sim\mathbb{Q}}\left[f(z,\zeta)\right]\\)
+\\({\min}_{z\,\in\,\mathcal{Z}}{\sup}_{\mathbb{Q}\,\in\,\mathrm{Proba}\left(\Xi\right)\quad W_c(\mathbb{Q},{\widehat{\mathbb{P}}}_N)\,\leq\,\varrho}{\mathbb{E}}_{\zeta\sim\mathbb{Q}}\left[f(z,\zeta)\right]\\)
 
 where \\(W_c(\cdot,\cdot)\\) denotes the Wasserstein distance [[Cuturi and Peyré](https://arxiv.org/pdf/1803.00567)], defined as
 
-\\(W_c\left(\mathbb{Q}_1,\mathbb{Q}_2\right)=\inf_{\substack{\pi\,\in\,\mathrm{Proba}\left(\Xi\times\Xi\right)\\ [\pi]_1=\mathbb{Q}_1\, [\pi]_2=\mathbb{Q}_2}}\int_{\Xi\times\Xi}c\left(\xi,\xi'\right)\mathrm{d}\pi\left(\xi,\xi'\right).\\)
+\\(W_c\left(\mathbb{Q}_1,\mathbb{Q}_2\right)=\inf_{\pi\,\in\,\mathrm{Proba}\left(\Xi\times\Xi\right),\quad [\pi]_1=\mathbb{Q}_1\, [\pi]_2=\mathbb{Q}_2}\int_{\Xi\times\Xi}c\left(\xi,\xi'\right)\mathrm{d}\pi\left(\xi,\xi'\right).\\)
 
 Instead of (WDRO), we propose to use its entropic-regularized version, following [[Azizian, Iutzeler and Malick, 2023](https://www.esaim-cocv.org/articles/cocv/pdf/2023/01/cocv220004.pdf)]:
 
