@@ -17,13 +17,13 @@ We consider a general class of combinatorial optimization problems in which some
 
 where \\(\mathcal{Z}\\) is the mixed-integer set of decision variables and \\(f(z,\xi)\\) is the optimal value of the combinatorial problem under scenario \\(\xi\\) for \\(\Xi\subseteq\mathbb{R}^d\\) the set of all possible scenarios of the uncertain data. For example, in a facility location problem with uncertain demand, \\(\mathcal{Z}\\) would be the set of facility opening vectors and \\(f(z,\xi)\\) the optimal value for the opening \\(z\\) under demand \\(\xi\\), which can itself be a convex program.
 
-Assuming that the data follows an unknown probability distribution \\(\mathbb{P}\\), the ideal goal is to choose \\(z\\) to minimize the expected value \\({\mathbb{E}}_{\xi\sim\mathbb{P}}[f(z,\xi)]\\). When the probability distribution of uncertain parameters is unknown, one typically relies on a finite historical dataset \\(\lbrace\widehat{\xi}_1,\dots,\widehat{\xi}_N\rbrace\subset\Xi\\) to infer plausible distributions. Using the empirical measure \\({\widehat{\mathbb{P}}}_N=\frac{1}{N}\sum^N_{i=1}\delta_{\widehat{\xi}_i}\\), data driven models typically relies on empirical risk minimization
+Assuming that the data follows an unknown probability distribution \\(\mathbb{P}\\), the ideal goal is to choose \\(z\\) to minimize the expected value \\({\mathbb{E}}_{\xi\sim\mathbb{P}}[f(z,\xi)]\\). When the probability distribution of uncertain parameters is unknown, one typically relies on a finite historical dataset \\(\lbrace\widehat{\xi}_1,\dots,\widehat{\xi}_N\rbrace\subset\Xi\\) to infer plausible distributions. Using the empirical measure \(\widehat{\mathbb{P}}_N=\dfrac{1}{N}\displaystyle\sum^N_{i=1}\delta_{\widehat{\xi}_i}\\), data driven models typically relies on empirical risk minimization
 
 \\(\min_{z\in\mathcal{Z}}\dfrac{1}{N}\displaystyle\sum^N_{i=1}f\left(z,\widehat{\xi}_i\right).\\)
 
 However, this approach can fail in the case where \\(N\\) is small or when the deployment data differs from the training data. In this context, Wasserstein Distributionally Robust Optimization (WDRO) has become a powerful framework, by its nice modeling and generalisation properties [[Esfahani and Kuhn, 2018](https://link.springer.com/content/pdf/10.1007/s10107-017-1172-1.pdf), [Le and Malick, 2024](https://arxiv.org/pdf/2402.11981), [Wiesemann, 2014](https://optimization-online.org/wp-content/uploads/2013/02/3757.pdf)]: we minimize the expected value of \\(f(z,\cdot)\\) under the worst-case distribution within a neighborhood of the empirical measure \\(\widehat{\mathbb{P}}_N\\). This leads to the problem:
 
-\\({\min}_{z\,\in\,\mathcal{Z}}{\sup}_{\mathbb{Q}\,\in\,\mathrm{Proba}\left(\Xi\right)\quad W_c(\mathbb{Q},{\widehat{\mathbb{P}}}_N)\,\leq\,\varrho}{\mathbb{E}}_{\zeta\sim\mathbb{Q}}\left[f(z,\zeta)\right]\\)
+\\(\min_{z\in\mathcal{Z}} \sup_{\mathbb{Q}\in\mathrm{Proba}\left(\Xi\times\Xi\right)}\mathbb{E}_{\zeta\sim\mathbb{Q}}\left[f(,\zeta)\right]\\)
 
 where \\(W_c(\cdot,\cdot)\\) denotes the Wasserstein distance [[Cuturi and Peyré](https://arxiv.org/pdf/1803.00567)], defined as
 
