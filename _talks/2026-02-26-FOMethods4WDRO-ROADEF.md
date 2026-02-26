@@ -17,7 +17,7 @@ We consider a general class of combinatorial optimization problems in which some
 
 where \\(\mathcal{Z}\\) is the mixed-integer set of decision variables and \\(f(z,\xi)\\) is the optimal value of the combinatorial problem under scenario \\(\xi\\) for \\(\Xi\subseteq\mathbb{R}^d\\) the set of all possible scenarios of the uncertain data. For example, in a facility location problem with uncertain demand, \\(\mathcal{Z}\\) would be the set of facility opening vectors and \\(f(z,\xi)\\) the optimal value for the opening \\(z\\) under demand \\(\xi\\), which can itself be a convex program.
 
-Assuming that the data follows an unknown probability distribution \\(\mathbb{P}\\), the ideal goal is to choose \\(z\\) to minimize the expected value \\({\mathbb{E}}[f(z,\cdot)]\\). When the probability distribution of uncertain parameters is unknown, one typically relies on a finite historical dataset \\(\lbrace\widehat{\xi}_1,\dots,\widehat{\xi}_N\rbrace\subset\Xi\\) to infer plausible distributions. Using the empirical measure \(\widehat{\mathbb{P}}_N\\), data driven models typically relies on empirical risk minimization
+Assuming that the data follows an unknown probability distribution \\(\mathbb{P}\\), the ideal goal is to choose \\(z\\) to minimize the expected value \\({\mathbb{E}}[f(z,\cdot)]\\). When the probability distribution of uncertain parameters is unknown, one typically relies on a finite historical dataset \\(\lbrace\widehat{\xi}_1,\dots,\widehat{\xi}_N\rbrace\subset\Xi\\) to infer plausible distributions. Using the empirical measure \\(\widehat{\mathbb{P}}_N\\), data driven models typically relies on empirical risk minimization
 
 \\(\min_{z\in\mathcal{Z}}\dfrac{1}{N}\displaystyle\sum^N_{i=1}f\left(z,\widehat{\xi}_i\right).\\)
 
