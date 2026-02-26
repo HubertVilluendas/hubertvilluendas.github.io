@@ -25,16 +25,7 @@ However, this approach can fail in the case where \\(N\\) is small or when the d
 
 \\(\min_{z\in\mathcal{Z}} \sup_{\mathbb{Q}\in\mathrm{Proba}\left(\Xi\times\Xi\right)}\mathbb{E}_{\zeta\sim\mathbb{Q}}\left[f(,\zeta)\right]\\)
 
-where \\(W_c(\cdot,\cdot)\\) denotes the Wasserstein distance [[Cuturi and Peyré](https://arxiv.org/pdf/1803.00567)], defined as
-
-\\(W_c\left(\mathbb{Q}_1,\mathbb{Q}_2\right)=\inf_{\pi\,\in\,\mathrm{Proba}\left(\Xi\times\Xi\right),\quad [\pi]_1=\mathbb{Q}_1\, [\pi]_2=\mathbb{Q}_2}\int_{\Xi\times\Xi}c\left(\xi,\xi'\right)\mathrm{d}\pi\left(\xi,\xi'\right).\\)
-
-Instead of (WDRO), we propose to use its entropic-regularized version, following [[Azizian, Iutzeler and Malick, 2023](https://www.esaim-cocv.org/articles/cocv/pdf/2023/01/cocv220004.pdf)]:
-
-\\({\min}_{z\,\in\,\mathcal{Z}}\min_{\lambda\geq 0}\left[F(z,\lambda)=\lambda\varrho+\varepsilon{\mathbb{E}}_{\xi\sim{\widehat{\mathbb{P}}}_N}\left[\log\left({\mathbb{E}}_{\zeta\sim\normal{\xi}{\sigma^2\mathbf{I}}}\left[\exp\left(\dfrac{f(z,\zeta)-\lambda c\left(\xi,\zeta\right)}{\varepsilon}\right)\right]\right)\right]
-\right].\\)
-
-where \\(\lambda\geq 0\\) is the dual variable associated to the Wasserstein distance constraint. This problem retains the generalization and robustness guarantees of the original formulation and enables the computation of stochastic gradient estimators via a Monte-Carlo sampling method [[Vincent et al, 2024](https://arxiv.org/pdf/2410.21231)]. 
+where \\(W_c(\cdot,\cdot)\\) denotes the Wasserstein distance [[Cuturi and Peyré](https://arxiv.org/pdf/1803.00567)]. Instead of (WDRO), we propose to use its entropic-regularized version, following [[Azizian, Iutzeler and Malick, 2023](https://www.esaim-cocv.org/articles/cocv/pdf/2023/01/cocv220004.pdf)]. This problem retains the generalization and robustness guarantees of the original formulation and enables the computation of stochastic gradient estimators via a Monte-Carlo sampling method [[Vincent et al, 2024](https://arxiv.org/pdf/2410.21231)]. 
 
 Then, we use a stochastic Frank-Wolfe algorithm to handle sampling noise [[Braun et al, 2025](https://arxiv.org/pdf/2211.14103)] which preserves the combinatorial nature of the feasible set while ensuring scalability. Our approach is close to oracle-based methods for robust optimization and is complementarty to existing WDRO approaches for mixed-integer problems that rely on exact reformulations combined with branch-and-bound or cutting-plane methods. Our use of a stochastic Frank--Wolfe algorithm enables an oracle-based optimization over \\(\mathrm{conv}(\mathcal{Z})\\), avoiding an explicit description of the feasible set and allowing efficient treatment of rich combinatorial structures.
 
