@@ -13,7 +13,7 @@ The aim of this course is to provide the necessary foundations for each student 
 Ressources
 ======
 
-- **TD1** [Correction TD1](/files/Maths4ComputerScience - Correction TD1.pdf)
+<!-- - **TD1** [Correction TD1](/files/Maths4ComputerScience - Correction TD1.pdf)
     - [Sum of the cubes - visual proof 1](https://www.youtube.com/shorts/y4xi1a8sw-M?feature=share)
     - [Sum of the cubes - visual proof 2](https://www.youtube.com/shorts/dOCk6SSpWLo?feature=share)
     - [Sum of the cubes - visual proof 3](https://www.youtube.com/shorts/SZsMVGqUiic?t=7&feature=share)
@@ -27,7 +27,7 @@ Ressources
     - [Video about Catalan Numbers *(in french)*](https://youtu.be/etzcN6g-vNY)
     - [Another one: Catalan Numbers *(in english)*](https://youtu.be/fczN0BCx0xs)
 
-- **TD5** [Correction TD5](/files/Maths4ComputerScience - Correction TD5.pdf) 
+- **TD5** [Correction TD5](/files/Maths4ComputerScience - Correction TD5.pdf)  -->
 
 
 <!-- Internship proposal
