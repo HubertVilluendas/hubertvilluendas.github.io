@@ -21,6 +21,7 @@ Resources
 - **TD2** [Correction TD2](/files/Maths4ComputerScience - Correction TD2.pdf)
     - [Explanation of *The Josephus Problem*](https://youtu.be/uCsD3ZGzMgE)
 
+<!--
 {% comment %} Hidden corrections: move this line down to reveal a TD
 - **TD3** [Correction TD3](/files/Maths4ComputerScience - Correction TD3.pdf) 
 
@@ -32,7 +33,7 @@ Resources
 {% endcomment %}
 
 
-<!-- Internship proposal
+ Internship proposal
 ======
 **Development of a Julia wrapper for the BiqCrunch solver (binary quadratic optimisation and semi-definite programming).**
 
