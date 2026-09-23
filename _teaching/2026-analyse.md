@@ -1,0 +1,30 @@
+---
+title: "Analyse (Cours et TD)"
+collection: teaching
+type: "L1"
+permalink: /teaching/2025-analyse
+venue: "Université Grenoble Alpes"
+date: 2026-09-01
+location: "Grenoble, France"
+---
+
+Premier semestre de l'année universitaire 2025-2026 : ce cours a pour but mettre en place les objets mathématiques d'analyse primordiaux : notion de limite, de continuité, de dérivabilité, ainsi que le calcul intégral et la résolution des premières équations différentielles.
+
+<span style="color: #7E7E7E;">(*Course dispensed in french*)</span>
+<!--
+Ressources
+
+======
+
+- **Devoir en classe : probabilités conditionnelles et formule de Bayes**
+    - [Sujet A](/files/StatsProbas - DS 05-12 - Sujet A.pdf) et [Correction Sujet A](/files/StatsProbas - DS 05-12 - Sujet A - Corrigé.pdf) 
+    - [Sujet B](/files/StatsProbas - DS 05-12 - Sujet B.pdf) et [Correction Sujet B](/files/StatsProbas - DS 05-12 - Sujet B - Corrigé.pdf)
+
+ Heading 1
+======
+
+Heading 2
+======
+
+Heading 3
+====== -->

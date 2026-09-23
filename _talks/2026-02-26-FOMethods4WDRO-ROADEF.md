@@ -9,7 +9,7 @@ location: "Tours, France"
 #slidesurl: 'http://hubertvilluendas.github.io/files/TalkROADEF2026.pdf'
 ---
 
-Presentation about a Frank-Wolfe approach for Wasserstein distributionally robust optimization for combinatorial problems, also presented on *February 10, 2026* at *AIRO Young Workshop, Padova, Italy*. [Slides](/files/TalkROADEF2026.pdf)
+Presentation about a Frank-Wolfe approach for Wasserstein distributionally robust optimization for combinatorial problems, also presented on *February 10, 2026* at *AIRO Young Workshop, Padova, Italy*, and on *June 2, 2026* at *SIAM Conference on Optimization, Edimburgh, Scotland*. [Slides](/files/TalkROADEF2026.pdf)
 
 We consider a general class of combinatorial optimization problems in which some imput data are only partly observed or subject to estimation errors. The problem can be written as a function of a scenario \\(\xi\in\Xi\\):
 

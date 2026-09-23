@@ -2,9 +2,9 @@
 title: "Mathematics for Computer Science (TD)"
 collection: teaching
 type: "M1 MoSIG"
-permalink: /teaching/2025-maths4computerscience
+permalink: /teaching/2026-maths4computerscience
 venue: "Université Grenoble Alpes"
-date: 2025-09-01
+date: 2026-09-01
 location: "Grenoble, France"
 ---
 
