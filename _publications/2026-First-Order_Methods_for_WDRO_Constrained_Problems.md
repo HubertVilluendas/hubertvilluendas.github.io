@@ -1,5 +1,5 @@
 ---
-title: "Knapsack with compactness: a Semidefinite Approach"
+title: "First-Order Methods for Wasserstein Distributionally Robust Constrained Optimization"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-First-Order_Methods_for_WDRO_Constrained_Problems
@@ -18,4 +18,4 @@ We consider constrained problems in which input data are affected by errors. In 
 However, the numerical resolution of the resulting problems remains challenging, especially in constrained settings.
 In this paper, we provide a general, practical way to solve Wasserstein distributionally robust formulations in the presence of constraints. 
 Our approach only requires a linear minimization oracle for the feasible set, and combines two key ingredients: (i) an entropic regularization of the distributionally robust value function, which makes it possible to compute stochastic gradient estimators, and (ii) a stochastic Frank-Wolfe algorithm, which minimizes the regularized robust objective while naturally handling constraints.
-We illustrate the method, its tractability, and its interests against empirical risk minimization, on two operations research problems: the traffic assignment and the minimum quadratic spanning tree.
+We illustrate the method, its tractability, and its benefits over empirical risk minimization, on two operations research problems: the traffic assignment and the minimum quadratic spanning tree.

@@ -10,7 +10,7 @@ location: "Grenoble, France"
 
 Premier semestre de l'année universitaire 2025-2026 : ce cours a pour but mettre en place les objets mathématiques d'analyse primordiaux : notion de limite, de continuité, de dérivabilité, ainsi que le calcul intégral et la résolution des premières équations différentielles.
 
-<span style="color: #7E7E7E;">(*Course dispensed in french*)</span>
+<span style="color: #7E7E7E;">(*Course taught in French*)</span>
 <!--
 Ressources
 

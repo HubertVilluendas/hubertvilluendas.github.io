@@ -1,11 +1,8 @@
 name: Scrape Talk Locations
 
+# Manual trigger only: the talk map is disabled (talkmap_link: false in _config.yml)
 on:
-  push:
-    paths:
-      - 'talks/**'
-      - '_talks/**'
-      - 'talkmap.ipynb'
+  workflow_dispatch:
 
 jobs:
   build:
