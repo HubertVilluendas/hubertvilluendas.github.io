@@ -20,14 +20,16 @@ Resources
 
 - **TD2** [Correction TD2](/files/Maths4ComputerScience - Correction TD2.pdf)
     - [Explanation of *The Josephus Problem*](https://youtu.be/uCsD3ZGzMgE)
-<!--
+
+{% comment %} Hidden corrections: move this line down to reveal a TD
 - **TD3** [Correction TD3](/files/Maths4ComputerScience - Correction TD3.pdf) 
 
 - **TD4** [Correction TD4](/files/Maths4ComputerScience - Correction TD4.pdf)
     - [Video about Catalan Numbers *(in french)*](https://youtu.be/etzcN6g-vNY)
     - [Another one: Catalan Numbers *(in english)*](https://youtu.be/fczN0BCx0xs)
 
-- **TD5** [Correction TD5](/files/Maths4ComputerScience - Correction TD5.pdf)  -->
+- **TD5** [Correction TD5](/files/Maths4ComputerScience - Correction TD5.pdf)
+{% endcomment %}
 
 
 <!-- Internship proposal
