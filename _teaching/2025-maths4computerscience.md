@@ -22,9 +22,9 @@ Resources
     - [Explanation of *The Josephus Problem*](https://youtu.be/uCsD3ZGzMgE)
 
 
-- **TD3** [Correction TD3](/files/Maths4ComputerScience - Correction TD3.pdf) 
-<!--
-{% comment %} Hidden corrections: move this line down to reveal a TD
+- **TD3** [Correction TD3](/files/Maths4ComputerScience - Correction TD3.pdf)
+
+<!--{% comment %} Hidden corrections: move this line down to reveal a TD
 - **TD4** [Correction TD4](/files/Maths4ComputerScience - Correction TD4.pdf)
     - [Video about Catalan Numbers *(in french)*](https://youtu.be/etzcN6g-vNY)
     - [Another one: Catalan Numbers *(in english)*](https://youtu.be/fczN0BCx0xs)
