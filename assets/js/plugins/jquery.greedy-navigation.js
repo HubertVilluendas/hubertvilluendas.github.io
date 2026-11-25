@@ -84,3 +84,14 @@ $btn.on('click', function () {
 });
 
 updateNav();
+
+// Measure again once the page and its web fonts are loaded: the first
+// measurement can be made with fallback fonts and wrongly hide menu items.
+$(window).on('load', function () {
+  updateNav();
+});
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(function () {
+    updateNav();
+  });
+}
