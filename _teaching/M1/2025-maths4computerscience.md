@@ -30,9 +30,9 @@ Resources
     - [Another one: Catalan Numbers *(in english)*](https://youtu.be/fczN0BCx0xs)
 
 - **TD5** [Correction TD5](/files/teaching/M1/Maths4ComputerScience - Correction TD5.pdf)
-{% endcomment %}
 
 <!--{% comment %} Hidden corrections: move this line down to reveal a TD
+{% endcomment %}
  Internship proposal
 ======
 **Development of a Julia wrapper for the BiqCrunch solver (binary quadratic optimisation and semi-definite programming).**

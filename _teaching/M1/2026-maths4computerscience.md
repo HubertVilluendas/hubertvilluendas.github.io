@@ -43,9 +43,9 @@ Resources
 
 - **TD9** [Correction TD9](/files/teaching/M1/Maths4ComputerScience - Correction TD9.pdf)
     - [To go further on coloring problems: the 4 colors theorem](https://www.youtube.com/watch?v=NgbK43jB4rQ)
-{% endcomment %}
 
 <!--{% comment %} Hidden corrections: move this line down to reveal a TD
+{% endcomment %}
  Internship proposal
 ======
 **Development of a Julia wrapper for the BiqCrunch solver (binary quadratic optimisation and semi-definite programming).**
