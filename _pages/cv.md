@@ -40,9 +40,40 @@ Articles
 
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+{% comment %}
+  Généré automatiquement depuis _talks/ :
+  - les fiches sont regroupées par `topic` (à défaut : par `title`), sujet le plus récent en premier ;
+  - si une fiche a une liste `presentations`, chaque entrée devient une ligne ;
+    sinon la fiche donne une seule ligne (venue, location, date, slides).
+{% endcomment %}
+{% assign talks_by_topic = site.talks | sort: "date" | reverse | group_by_exp: "talk", "talk.topic | default: talk.title" %}
+<ul>
+{%- for group in talks_by_topic %}
+  <li><strong>{{ group.name }}</strong>
+    <ul>
+    {%- assign topic_talks = group.items | reverse %}
+    {%- for talk in topic_talks %}
+      {%- if talk.presentations %}
+        {%- assign presentations = talk.presentations %}
+      {%- else %}
+        {%- assign presentations = "" | split: "" | push: talk %}
+      {%- endif %}
+      {%- for p in presentations %}
+        {%- assign kind = p.type | default: talk.type %}
+      <li>{{ p.venue }} – {{ p.location }}, {{ p.date | date: "%B %Y" }}{% if kind == "Poster" %} – poster{% endif %}{% if p.slides %} (<a href="{{ base_path }}{{ p.slides }}">{% if kind == "Poster" %}poster{% else %}slides{% endif %}</a>){% endif %}</li>
+      {%- endfor %}
+    {%- endfor %}
+    </ul>
+  </li>
+{%- endfor %}
+</ul>
+
+Supervision
+======
+* Master 1 MoSIG internship – <strong>Julia wrapper for BiqCrunch</strong>, a semidefinite-based solver for binary quadratic problems
+  * Student: Gustavo Prolla Lacroix (Université Grenoble Alpes)
+  * Co-supervised with Mathieu Besançon (LIG)
+  * March–July 2026
 
 Enseignement
 ======

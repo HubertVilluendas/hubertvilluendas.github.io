@@ -2,9 +2,9 @@
 title: "Mathematics for Computer Science (TD)"
 collection: teaching
 type: "M1 MoSIG"
-permalink: /teaching/2025-maths4computerscience
+permalink: /teaching/2026-maths4computerscience
 venue: "Université Grenoble Alpes"
-date: 2025-09-01
+date: 2026-09-01
 location: "Grenoble, France"
 ---
 
@@ -13,23 +13,23 @@ The aim of this course is to provide the necessary foundations for each student 
 Resources
 ======
 
- - **TD1** [Correction TD1](/files/Maths4ComputerScience - Correction TD1.pdf)
+ - **TD1** [Correction TD1](/files/teaching/M1/Maths4ComputerScience - Correction TD1.pdf)
     - [Sum of the cubes - visual proof 1](https://www.youtube.com/shorts/y4xi1a8sw-M?feature=share)
     - [Sum of the cubes - visual proof 2](https://www.youtube.com/shorts/dOCk6SSpWLo?feature=share)
     - [Sum of the cubes - visual proof 3](https://www.youtube.com/shorts/SZsMVGqUiic?t=7&feature=share)
 
-- **TD2** [Correction TD2](/files/Maths4ComputerScience - Correction TD2.pdf)
+- **TD2** [Correction TD2](/files/teaching/M1/Maths4ComputerScience - Correction TD2.pdf)
     - [Explanation of *The Josephus Problem*](https://youtu.be/uCsD3ZGzMgE)
 
 
-- **TD3** [Correction TD3](/files/Maths4ComputerScience - Correction TD3.pdf)
+- **TD3** [Correction TD3](/files/teaching/M1/Maths4ComputerScience - Correction TD3.pdf) 
 
 <!--{% comment %} Hidden corrections: move this line down to reveal a TD
-- **TD4** [Correction TD4](/files/Maths4ComputerScience - Correction TD4.pdf)
+- **TD4** [Correction TD4](/files/teaching/M1/Maths4ComputerScience - Correction TD4.pdf)
     - [Video about Catalan Numbers *(in french)*](https://youtu.be/etzcN6g-vNY)
     - [Another one: Catalan Numbers *(in english)*](https://youtu.be/fczN0BCx0xs)
 
-- **TD5** [Correction TD5](/files/Maths4ComputerScience - Correction TD5.pdf)
+- **TD5** [Correction TD5](/files/teaching/M1/Maths4ComputerScience - Correction TD5.pdf)
 {% endcomment %}
 
 

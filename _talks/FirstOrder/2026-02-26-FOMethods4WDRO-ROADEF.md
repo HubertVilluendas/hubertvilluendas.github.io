@@ -6,10 +6,23 @@ permalink: /talks/MixedIntegerFirstOrderWDRO
 venue: "ROADEF 2026"
 date: 2026-02-26
 location: "Tours, France"
-#slidesurl: 'http://hubertvilluendas.github.io/files/TalkROADEF2026.pdf'
+#slidesurl: 'http://hubertvilluendas.github.io/files/talks/FirstOrder/TalkROADEF2026.pdf'
+presentations:
+  - venue: "AIRO Young Workshop 2026"
+    location: "Padova, Italy"
+    date: 2026-02-10
+    slides: /files/talks/FirstOrder/TalkPADOVA2026.pdf
+  - venue: "ROADEF 2026"
+    location: "Tours, France"
+    date: 2026-02-26
+    slides: /files/talks/FirstOrder/TalkROADEF2026.pdf
+  - venue: "SIAM Conference on Optimization (OP26)"
+    location: "Edinburgh, Scotland"
+    date: 2026-06-02
+    slides: /files/talks/FirstOrder/TalkSIAM2026.pdf
 ---
 
-Presentation about a Frank-Wolfe approach for Wasserstein distributionally robust optimization for combinatorial problems, also presented on *February 10, 2026* at *AIRO Young Workshop, Padova, Italy*, and on *June 2, 2026* at *SIAM Conference on Optimization, Edinburgh, Scotland*. [Slides](/files/TalkROADEF2026.pdf)
+Presentation about a Frank-Wolfe approach for Wasserstein distributionally robust optimization for combinatorial problems, also presented on *February 10, 2026* at *AIRO Young Workshop, Padova, Italy* ([slides](/files/talks/FirstOrder/TalkPADOVA2026.pdf)), and on *June 2, 2026* at *SIAM Conference on Optimization, Edinburgh, Scotland* ([slides](/files/talks/FirstOrder/TalkSIAM2026.pdf)). [Slides](/files/talks/FirstOrder/TalkROADEF2026.pdf)
 
 We consider a general class of combinatorial optimization problems in which some input data are only partly observed or subject to estimation errors. The problem can be written as a function of a scenario \\(\xi\in\Xi\\):
 

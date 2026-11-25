@@ -10,7 +10,7 @@ Our approach only requires a linear minimization oracle for the feasible set, an
 We illustrate the method, its tractability, and its interests against empirical risk minimization, on two operations research problems: the traffic assignment and the minimum quadratic spanning tree.'
 date: 2026-09-19
 venue: 'Preprint arXiv'
-paperurl: 'http://hubertvilluendas.github.io/files/FirstOrderWDROforConstraindPbm.pdf'
+paperurl: 'http://hubertvilluendas.github.io/files/publications/FirstOrderWDROforConstraindPbm.pdf'
 citation: 'Hubert Villuendas, Mathieu Besançon and Jérôme Malick. (2026). &quot;First-Order Methods for Wasserstein Distributionally Robust Constrained Optimization.&quot; <i>preprint arXiv:2607.11460</i>.'
 ---
 
