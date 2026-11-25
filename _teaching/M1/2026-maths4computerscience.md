@@ -24,15 +24,28 @@ Resources
 
 - **TD3** [Correction TD3](/files/teaching/M1/Maths4ComputerScience - Correction TD3.pdf) 
 
-<!--{% comment %} Hidden corrections: move this line down to reveal a TD
+
 - **TD4** [Correction TD4](/files/teaching/M1/Maths4ComputerScience - Correction TD4.pdf)
     - [Video about Catalan Numbers *(in french)*](https://youtu.be/etzcN6g-vNY)
     - [Another one: Catalan Numbers *(in english)*](https://youtu.be/fczN0BCx0xs)
 
 - **TD5** [Correction TD5](/files/teaching/M1/Maths4ComputerScience - Correction TD5.pdf)
+
+
+- **TD6** [Correction TD6](/files/teaching/M1/Maths4ComputerScience - Correction TD6.pdf)
+    - [Extract of *Die Hard*, the Water Jug riddle](https://www.youtube.com/watch?v=m9F0i-1Jys0)
+
+- **TD7** [Correction TD7](/files/teaching/M1/Maths4ComputerScience - Correction TD7.pdf)
+    - [Explaination of Euler's formula, by the *incredible* 3Blue1Brown](https://www.youtube.com/watch?v=-9OUyo8NFZg)
+
+- **TD8** [Correction TD8](/files/teaching/M1/Maths4ComputerScience - Correction TD8.pdf)
+    - [To go further on coloring problems: the 4 colors theorem](https://www.youtube.com/watch?v=NgbK43jB4rQ)
+
+- **TD9** [Correction TD9](/files/teaching/M1/Maths4ComputerScience - Correction TD9.pdf)
+    - [To go further on coloring problems: the 4 colors theorem](https://www.youtube.com/watch?v=NgbK43jB4rQ)
 {% endcomment %}
 
-
+<!--{% comment %} Hidden corrections: move this line down to reveal a TD
  Internship proposal
 ======
 **Development of a Julia wrapper for the BiqCrunch solver (binary quadratic optimisation and semi-definite programming).**
