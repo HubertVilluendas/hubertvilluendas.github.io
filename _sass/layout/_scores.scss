@@ -1,0 +1,44 @@
+/* ==========================================================================
+   SCORES (Miscellaneous page): first-page preview next to each score
+   ========================================================================== */
+
+.score-list {
+  margin: 1.5em 0;
+}
+
+.score {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25em;
+  margin-bottom: 1.75em;
+
+  &__preview {
+    flex: 0 0 auto;
+    width: 150px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--global-border-color);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    &:hover img,
+    &:focus-visible img {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__info p {
+    margin: 0 0 0.4em;
+  }
+}
+
+@media (max-width: 480px) {
+  .score__preview {
+    width: 110px;
+  }
+}
